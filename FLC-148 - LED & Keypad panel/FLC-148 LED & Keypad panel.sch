@@ -20564,8 +20564,9 @@ Presistor=0.2A*1.6V=0.32W</text>
 <text x="662.94" y="-104.14" size="1.778" layer="98">wakeup</text>
 <text x="662.94" y="-91.44" size="1.778" layer="98">wakeup</text>
 <text x="662.94" y="7.62" size="1.778" layer="98">wakeup</text>
-<text x="685.8" y="-127" size="1.778" layer="98">TODO: tie boot0 to gnd</text>
+<text x="815.34" y="-33.02" size="3.81" layer="98" rot="R270">TODO: tie boot0 to gnd</text>
 <text x="132.08" y="-15.24" size="1.778" layer="90">BOOT0 pin</text>
+<text x="63.5" y="-5.08" size="3.81" layer="98" rot="R270">TODO: route D/C line</text>
 </plain>
 <instances>
 <instance part="LED3" gate="G$1" x="314.96" y="66.04" smashed="yes">
@@ -21597,7 +21598,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="OLED_RST" class="2">
+<net name="LCD_RST" class="2">
 <segment>
 <pinref part="LCD" gate="G$1" pin="!RET!_29"/>
 <wire x1="33.02" y1="-5.08" x2="48.26" y2="-5.08" width="0.1524" layer="91"/>
@@ -21784,7 +21785,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="-91.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="OLED_!D!/C" class="2">
+<net name="LCD_!D!/C" class="2">
 <segment>
 <pinref part="LCD" gate="G$1" pin="A0(RS)_28"/>
 <wire x1="33.02" y1="-7.62" x2="48.26" y2="-7.62" width="0.1524" layer="91"/>
@@ -22328,7 +22329,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="187.96" y="50.8" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="LED_BACKLIGHT_GREEN_GATE" class="2">
+<net name="LCD_BACKLIGHT_GREEN_GATE" class="2">
 <segment>
 <pinref part="IC5" gate="G$1" pin="SPI2_MOSI,TIM1_CH3N,TIM15_CH1N,TIM15_CH2,EVENTOUT,UCPD1_CC2,RTC_REFIN-PB15"/>
 <wire x1="655.32" y1="-45.72" x2="675.64" y2="-45.72" width="0.1524" layer="91"/>
@@ -22340,7 +22341,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="358.14" y="-180.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LED_BACKLIGHT_IR_GATE" class="2">
+<net name="LCD_BACKLIGHT_IR_GATE" class="2">
 <segment>
 <pinref part="IC5" gate="G$1" pin="SPI2_MISO,UCPD1_FRSTX,TIM1_CH2N,USART3_RTS_DE_CK,TIM15_CH1,I2C2_SDA,EVENTOUT-PB14"/>
 <wire x1="655.32" y1="-48.26" x2="675.64" y2="-48.26" width="0.1524" layer="91"/>
@@ -22368,7 +22369,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <junction x="314.96" y="-121.92"/>
 </segment>
 </net>
-<net name="BACKLIGHT_GREEN_DRAIN" class="2">
+<net name="LCD_BACKLIGHT_GREEN_DRAIN" class="2">
 <segment>
 <pinref part="IC3" gate="G$1" pin="6_D1"/>
 <wire x1="325.12" y1="-180.34" x2="317.5" y2="-180.34" width="0.1524" layer="91"/>
@@ -22389,7 +22390,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="304.8" y="-81.28" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="BACKLIGHT_IR_DRAIN" class="2">
+<net name="LCD_BACKLIGHT_IR_DRAIN" class="2">
 <segment>
 <pinref part="IC3" gate="G$1" pin="4_D2"/>
 <wire x1="325.12" y1="-175.26" x2="317.5" y2="-175.26" width="0.1524" layer="91"/>
