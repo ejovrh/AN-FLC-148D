@@ -22292,7 +22292,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="119.38" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SPI_LCD_SCK" class="2">
+<net name="SPI_OLED_SCK" class="2">
 <segment>
 <pinref part="LCD" gate="G$1" pin="DB6_19"/>
 <wire x1="33.02" y1="-30.48" x2="48.26" y2="-30.48" width="0.1524" layer="91"/>
@@ -22304,7 +22304,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SPI_LCD_MOSI" class="2">
+<net name="SPI_OLED_MOSI" class="2">
 <segment>
 <pinref part="LCD" gate="G$1" pin="DB7_18"/>
 <wire x1="33.02" y1="-33.02" x2="48.26" y2="-33.02" width="0.1524" layer="91"/>
@@ -22316,7 +22316,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SPI_LCD_SS" class="2">
+<net name="SPI_OLED_SS" class="2">
 <segment>
 <pinref part="LCD" gate="G$1" pin="!CS1!_30"/>
 <wire x1="33.02" y1="-2.54" x2="48.26" y2="-2.54" width="0.1524" layer="91"/>
@@ -22333,7 +22333,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="187.96" y="50.8" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="LED_BACKLIGHT_GREEN_GATE" class="2">
+<net name="OLED_BACKLIGHT_GREEN_GATE" class="2">
 <segment>
 <pinref part="IC5" gate="G$1" pin="SPI2_MOSI,TIM1_CH3N,TIM15_CH1N,TIM15_CH2,EVENTOUT,UCPD1_CC2,RTC_REFIN-PB15"/>
 <wire x1="655.32" y1="-45.72" x2="675.64" y2="-45.72" width="0.1524" layer="91"/>
@@ -22345,7 +22345,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="358.14" y="-180.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LED_BACKLIGHT_IR_GATE" class="2">
+<net name="OLED_BACKLIGHT_IR_GATE" class="2">
 <segment>
 <pinref part="IC5" gate="G$1" pin="SPI2_MISO,UCPD1_FRSTX,TIM1_CH2N,USART3_RTS_DE_CK,TIM15_CH1,I2C2_SDA,EVENTOUT-PB14"/>
 <wire x1="655.32" y1="-48.26" x2="675.64" y2="-48.26" width="0.1524" layer="91"/>
@@ -22373,7 +22373,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <junction x="314.96" y="-121.92"/>
 </segment>
 </net>
-<net name="BACKLIGHT_GREEN_DRAIN" class="2">
+<net name="LCD_BACKLIGHT_GREEN_DRAIN" class="2">
 <segment>
 <pinref part="IC3" gate="G$1" pin="6_D1"/>
 <wire x1="325.12" y1="-180.34" x2="317.5" y2="-180.34" width="0.1524" layer="91"/>
@@ -22394,7 +22394,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="304.8" y="-81.28" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="BACKLIGHT_IR_DRAIN" class="2">
+<net name="LCD_BACKLIGHT_IR_DRAIN" class="2">
 <segment>
 <pinref part="IC3" gate="G$1" pin="4_D2"/>
 <wire x1="325.12" y1="-175.26" x2="317.5" y2="-175.26" width="0.1524" layer="91"/>
@@ -22415,7 +22415,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="299.72" y="-132.08" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="KEYPAD_IR_LED_DRAIN" class="2">
+<net name="KEYPAD_BACKLIGHT_IR_DRAIN" class="2">
 <segment>
 <pinref part="LED5" gate="G$1" pin="C"/>
 <pinref part="LED8" gate="G$1" pin="C"/>
