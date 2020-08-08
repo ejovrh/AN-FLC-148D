@@ -2168,7 +2168,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="41" y="37.75" size="1" layer="25" font="vector" rot="R90" align="center"/>
 <attribute name="VALUE" x="43.75" y="35.75" size="1" layer="27" font="vector" align="center"/>
 </element>
-<element name="PTT" library="527930570 FFC Connector 5p 1mm Pitch" package="SMD" value="52793-0570" x="37.75" y="15" smashed="yes" rot="R90">
+<element name="PTT" library="527930570 FFC Connector 5p 1mm Pitch" package="SMD" value="52207-0533" x="37.75" y="15" smashed="yes" rot="R90">
 <attribute name="NAME" x="38.25" y="9.5" size="1" layer="25" font="vector" rot="R180" align="center-right"/>
 <attribute name="VALUE" x="41.75" y="15" size="1" layer="27" font="vector" rot="R90" align="center"/>
 </element>
@@ -2240,7 +2240,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="SPICEPREFIX" value="C" x="17.25" y="41" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="19.155" y="40.365" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="ROTARY" library="527930570 FFC Connector 5p 1mm Pitch" package="SMD" value="52793-0570" x="41.5" y="54.25" smashed="yes" rot="R90">
+<element name="ROTARY" library="527930570 FFC Connector 5p 1mm Pitch" package="SMD" value="52207-0533" x="41.5" y="54.25" smashed="yes" rot="R90">
 <attribute name="NAME" x="42" y="48.75" size="1" layer="25" font="vector" align="center-left"/>
 <attribute name="VALUE" x="45.5" y="54.25" size="1" layer="27" font="vector" rot="R90" align="center"/>
 </element>

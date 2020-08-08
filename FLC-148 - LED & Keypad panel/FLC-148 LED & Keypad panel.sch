@@ -20440,7 +20440,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/FTSH-107-01-L
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1μF"/>
 <part name="R2" library="741X163103JP 10k Ohm Resistor Array" deviceset="741X163" device="" value="741X163103JP - 10K"/>
 <part name="R3" library="741X163103JP 10k Ohm Resistor Array" deviceset="741X163" device="" value="741X163103JP - 10K"/>
-<part name="PTT" library="527930570 FFC Connector 5p 1mm Pitch" deviceset="527930570" device="" value="52793-0570"/>
+<part name="PTT" library="527930570 FFC Connector 5p 1mm Pitch" deviceset="527930570" device="" value="52207-0533"/>
 <part name="R4" library="741X163103JP 10k Ohm Resistor Array" deviceset="741X163" device="" value="EXB-2HV680JV  - 68 Ohm"/>
 <part name="IMIC" library="2-Pole Connector" deviceset="2POLE_CONNECTOR" device="" value="IMIC"/>
 <part name="ISPKR" library="2-Pole Connector" deviceset="2POLE_CONNECTOR" device="" value="ISPKR"/>
@@ -20453,7 +20453,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/FTSH-107-01-L
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="SMCB" package3d_urn="urn:adsk.eagle:package:25920/5" value="10μF/25V Tantalum"/>
 <part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="SMCA" package3d_urn="urn:adsk.eagle:package:25926/3" value="0.1μF Tantalum"/>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="SMCA" package3d_urn="urn:adsk.eagle:package:25926/3" value="4.7μF Tantalum"/>
-<part name="ROTARY" library="527930570 FFC Connector 5p 1mm Pitch" deviceset="527930570" device="" value="52793-0570"/>
+<part name="ROTARY" library="527930570 FFC Connector 5p 1mm Pitch" deviceset="527930570" device="" value="52207-0533"/>
 <part name="MCU" library="5034801800 FFC Connector 19p 0.5mm Pitch, FLC148 Motherboard - LCD Panel" deviceset="5034801800-MOTHERBOARD&lt;-&gt;LCD-PANEL" device="" value="503480-1800"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1μF"/>
 <part name="FD1" library="Fiducial" deviceset="FID" device="_20MIL_P"/>
