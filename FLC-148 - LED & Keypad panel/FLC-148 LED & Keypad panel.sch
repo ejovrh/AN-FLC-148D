@@ -21790,6 +21790,11 @@ Presistor=0.2A*1.6V=0.32W</text>
 <wire x1="33.02" y1="-7.62" x2="48.26" y2="-7.62" width="0.1524" layer="91"/>
 <label x="48.26" y="-7.62" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="SPI1_MOSI/I2S1_SD,USART1_RTS_DE_CK,TIM1_ETR,I2S_CKIN,I2C2_SDA,COMP2_OUT-PA12"/>
+<wire x1="655.32" y1="-27.94" x2="675.64" y2="-27.94" width="0.1524" layer="91"/>
+<label x="675.64" y="-27.94" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MCU_KEYPAD_INTERRUPT" class="2">
 <segment>
