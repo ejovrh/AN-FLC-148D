@@ -20438,7 +20438,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/FTSH-107-01-L
 <part name="IC2" library="MAX6818 CMOS Switch debouncer" deviceset="MAX6818" device=""/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1μF"/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1μF"/>
-<part name="R2" library="741X163103JP 10k Ohm Resistor Array" deviceset="741X163" device="" value="741X163103JP - 10K"/>
 <part name="R3" library="741X163103JP 10k Ohm Resistor Array" deviceset="741X163" device="" value="741X163103JP - 10K"/>
 <part name="PTT" library="527930570 FFC Connector 5p 1mm Pitch" deviceset="527930570" device="" value="52207-0533"/>
 <part name="R4" library="741X163103JP 10k Ohm Resistor Array" deviceset="741X163" device="" value="EXB-2HV680JV  - 68 Ohm"/>
@@ -20639,10 +20638,6 @@ Presistor=0.2A*1.6V=0.32W</text>
 <instance part="C12" gate="G$1" x="139.7" y="119.38" smashed="yes">
 <attribute name="NAME" x="141.224" y="119.761" size="1.778" layer="95"/>
 <attribute name="VALUE" x="143.764" y="117.221" size="1.778" layer="96"/>
-</instance>
-<instance part="R2" gate="G$1" x="200.66" y="104.14" smashed="yes">
-<attribute name="NAME" x="200.66" y="115.57" size="1" layer="95" font="vector" align="center"/>
-<attribute name="VALUE" x="200.66" y="90.17" size="1" layer="96" font="vector" align="center"/>
 </instance>
 <instance part="R3" gate="G$1" x="200.66" y="60.96" smashed="yes">
 <attribute name="NAME" x="200.66" y="72.39" size="1" layer="95" font="vector" align="center"/>
@@ -21152,79 +21147,9 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="114.3" y="-68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="208.28" y1="109.22" x2="213.36" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="P$15"/>
-<label x="213.36" y="109.22" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="208.28" y1="106.68" x2="213.36" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="P$14"/>
-<label x="213.36" y="106.68" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="208.28" y1="104.14" x2="213.36" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="P$13"/>
-<label x="213.36" y="104.14" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="208.28" y1="101.6" x2="213.36" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="P$12"/>
-<label x="213.36" y="101.6" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="208.28" y1="99.06" x2="213.36" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="P$11"/>
-<label x="213.36" y="99.06" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="208.28" y1="96.52" x2="213.36" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="P$10"/>
-<label x="213.36" y="96.52" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="208.28" y1="58.42" x2="213.36" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="P$12"/>
-<label x="213.36" y="58.42" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="208.28" y1="60.96" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="P$13"/>
-<label x="213.36" y="60.96" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="208.28" y1="63.5" x2="213.36" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="P$14"/>
-<label x="213.36" y="63.5" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="208.28" y1="66.04" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="P$15"/>
-<label x="213.36" y="66.04" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R2" gate="G$1" pin="P$16"/>
-<wire x1="208.28" y1="111.76" x2="213.36" y2="111.76" width="0.1524" layer="91"/>
-<label x="213.36" y="111.76" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R3" gate="G$1" pin="P$11"/>
-<wire x1="208.28" y1="55.88" x2="213.36" y2="55.88" width="0.1524" layer="91"/>
-<label x="213.36" y="55.88" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R3" gate="G$1" pin="P$10"/>
 <wire x1="208.28" y1="53.34" x2="213.36" y2="53.34" width="0.1524" layer="91"/>
 <label x="213.36" y="53.34" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R2" gate="G$1" pin="P$9"/>
-<wire x1="208.28" y1="93.98" x2="213.36" y2="93.98" width="0.1524" layer="91"/>
-<label x="213.36" y="93.98" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R3" gate="G$1" pin="P$16"/>
-<wire x1="208.28" y1="68.58" x2="213.36" y2="68.58" width="0.1524" layer="91"/>
-<label x="213.36" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="P$9"/>
@@ -21621,11 +21546,6 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="142.24" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R3" gate="G$1" pin="P$5"/>
-<wire x1="193.04" y1="58.42" x2="187.96" y2="58.42" width="0.1524" layer="91"/>
-<label x="187.96" y="58.42" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <pinref part="IC5" gate="G$1" pin="MCO,USART1_TX,TIM1_CH2,SPI2_MISO,TIM15_BKIN,I2C1_SCL,EVENTOUT,UCPD1_DBCC1-PA9"/>
 <wire x1="655.32" y1="-40.64" x2="675.64" y2="-40.64" width="0.1524" layer="91"/>
 <label x="675.64" y="-40.64" size="1.778" layer="95"/>
@@ -21636,11 +21556,6 @@ Presistor=0.2A*1.6V=0.32W</text>
 <pinref part="IC2" gate="G$1" pin="OUT3"/>
 <wire x1="134.62" y1="63.5" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
 <label x="142.24" y="63.5" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R3" gate="G$1" pin="P$6"/>
-<wire x1="193.04" y1="55.88" x2="187.96" y2="55.88" width="0.1524" layer="91"/>
-<label x="187.96" y="55.88" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="MCO,SPI2_NSS,TIM1_CH1,LPTIM2_OUT,EVENTOUT,UCPD1_CC1-PA8"/>
@@ -21655,11 +21570,6 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="142.24" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R3" gate="G$1" pin="P$3"/>
-<wire x1="193.04" y1="63.5" x2="187.96" y2="63.5" width="0.1524" layer="91"/>
-<label x="187.96" y="63.5" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <pinref part="IC5" gate="G$1" pin="UCPD2_FRSTX,TIM3_CH2,TIM2_CH4-PC7"/>
 <wire x1="655.32" y1="-35.56" x2="675.64" y2="-35.56" width="0.1524" layer="91"/>
 <label x="675.64" y="-35.56" size="1.778" layer="95"/>
@@ -21670,11 +21580,6 @@ Presistor=0.2A*1.6V=0.32W</text>
 <pinref part="IC1" gate="G$1" pin="OUT2"/>
 <wire x1="134.62" y1="109.22" x2="142.24" y2="109.22" width="0.1524" layer="91"/>
 <label x="142.24" y="109.22" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R2" gate="G$1" pin="P$7"/>
-<wire x1="193.04" y1="96.52" x2="187.96" y2="96.52" width="0.1524" layer="91"/>
-<label x="187.96" y="96.52" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="CEC,SPI2_SCK,TIM16_CH1,USART3_TX,TIM15_BKIN,I2C1_SCL,EVENTOUT-PB8"/>
@@ -21689,11 +21594,6 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="142.24" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="P$4"/>
-<wire x1="193.04" y1="104.14" x2="187.96" y2="104.14" width="0.1524" layer="91"/>
-<label x="187.96" y="104.14" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <pinref part="IC5" gate="G$1" pin="TIM1_BKIN2,OSC_IN__OSC32_IN-PC14"/>
 <wire x1="655.32" y1="-127" x2="675.64" y2="-127" width="0.1524" layer="91"/>
 <label x="675.64" y="-127" size="1.778" layer="95"/>
@@ -21704,11 +21604,6 @@ Presistor=0.2A*1.6V=0.32W</text>
 <pinref part="IC1" gate="G$1" pin="OUT6"/>
 <wire x1="134.62" y1="99.06" x2="142.24" y2="99.06" width="0.1524" layer="91"/>
 <label x="142.24" y="99.06" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R2" gate="G$1" pin="P$3"/>
-<wire x1="193.04" y1="106.68" x2="187.96" y2="106.68" width="0.1524" layer="91"/>
-<label x="187.96" y="106.68" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="OSC32_EN,OSC_EN,TIM15_BKIN__OSC32_OUT-PC15"/>
@@ -21723,11 +21618,6 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="142.24" y="96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="P$2"/>
-<wire x1="193.04" y1="109.22" x2="187.96" y2="109.22" width="0.1524" layer="91"/>
-<label x="187.96" y="109.22" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <pinref part="IC5" gate="G$1" pin="SPI1_SCK/I2S1_CK,USART2_RTS_DE_CK,TIM2_CH2,USART4_RX,TIM15_CH1N,I2C1_SMBA,EVENTOUT,COMP1_INP,ADC_IN1-PA1"/>
 <wire x1="655.32" y1="-101.6" x2="675.64" y2="-101.6" width="0.1524" layer="91"/>
 <label x="675.64" y="-101.6" size="1.778" layer="95"/>
@@ -21738,11 +21628,6 @@ Presistor=0.2A*1.6V=0.32W</text>
 <pinref part="IC1" gate="G$1" pin="OUT4"/>
 <wire x1="134.62" y1="104.14" x2="142.24" y2="104.14" width="0.1524" layer="91"/>
 <label x="142.24" y="104.14" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R2" gate="G$1" pin="P$5"/>
-<wire x1="193.04" y1="101.6" x2="187.96" y2="101.6" width="0.1524" layer="91"/>
-<label x="187.96" y="101.6" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="TIM1_BKIN,TAMP_IN1,RTC_TS,RTC_OUT1,WKUP2-PC13"/>
@@ -21757,11 +21642,6 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="142.24" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="P$6"/>
-<wire x1="193.04" y1="99.06" x2="187.96" y2="99.06" width="0.1524" layer="91"/>
-<label x="187.96" y="99.06" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <pinref part="IC5" gate="G$1" pin="IR_OUT,UCPD2_FRSTX,TIM17_CH1,USART3_RX,SPI2_NSS,I2C1_SDA,EVENTOUT-PB9"/>
 <wire x1="655.32" y1="17.78" x2="675.64" y2="17.78" width="0.1524" layer="91"/>
 <label x="675.64" y="17.78" size="1.778" layer="95"/>
@@ -21772,11 +21652,6 @@ Presistor=0.2A*1.6V=0.32W</text>
 <pinref part="IC1" gate="G$1" pin="OUT8"/>
 <wire x1="134.62" y1="93.98" x2="142.24" y2="93.98" width="0.1524" layer="91"/>
 <label x="142.24" y="93.98" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R2" gate="G$1" pin="P$1"/>
-<wire x1="193.04" y1="111.76" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
-<label x="187.96" y="111.76" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="SPI1_MOSI/I2S1_SD,USART2_TX,TIM2_CH3,UCPD1_FRSTX,TIM15_CH1,LPUART1_TX,COMP2_OUT,COMP2_INM,ADC_IN2,WKUP4,LSCO-PA2"/>
@@ -21813,11 +21688,6 @@ Presistor=0.2A*1.6V=0.32W</text>
 <pinref part="IC2" gate="G$1" pin="OUT5"/>
 <wire x1="134.62" y1="58.42" x2="142.24" y2="58.42" width="0.1524" layer="91"/>
 <label x="142.24" y="58.42" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R3" gate="G$1" pin="P$4"/>
-<wire x1="193.04" y1="60.96" x2="187.96" y2="60.96" width="0.1524" layer="91"/>
-<label x="187.96" y="60.96" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="UCPD1_FRSTX,TIM3_CH1,TIM2_CH3-PC6"/>
@@ -22019,11 +21889,6 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="142.24" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R3" gate="G$1" pin="P$2"/>
-<wire x1="193.04" y1="66.04" x2="187.96" y2="66.04" width="0.1524" layer="91"/>
-<label x="187.96" y="66.04" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <pinref part="IC5" gate="G$1" pin="SPI2_MOSI,USART1_RX,TIM1_CH3,TIM17_BKIN,I2C1_SDA,EVENTOUT,UCPD1_DBCC2-PA10"/>
 <wire x1="655.32" y1="-33.02" x2="675.64" y2="-33.02" width="0.1524" layer="91"/>
 <label x="675.64" y="-33.02" size="1.778" layer="95"/>
@@ -22034,11 +21899,6 @@ Presistor=0.2A*1.6V=0.32W</text>
 <pinref part="IC1" gate="G$1" pin="OUT1"/>
 <wire x1="134.62" y1="111.76" x2="142.24" y2="111.76" width="0.1524" layer="91"/>
 <label x="142.24" y="111.76" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R2" gate="G$1" pin="P$8"/>
-<wire x1="193.04" y1="93.98" x2="187.96" y2="93.98" width="0.1524" layer="91"/>
-<label x="187.96" y="93.98" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="USART1_TX,TIM1_CH3,TIM16_CH1N,SPI2_MISO,LPTIM1_ETR,I2C1_SCL,EVENTOUT,COMP2_INP-PB6"/>
@@ -22063,11 +21923,6 @@ Presistor=0.2A*1.6V=0.32W</text>
 <pinref part="IC2" gate="G$1" pin="OUT8"/>
 <wire x1="134.62" y1="50.8" x2="142.24" y2="50.8" width="0.1524" layer="91"/>
 <label x="142.24" y="50.8" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R3" gate="G$1" pin="P$1"/>
-<wire x1="193.04" y1="68.58" x2="187.96" y2="68.58" width="0.1524" layer="91"/>
-<label x="187.96" y="68.58" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="SPI1_MISO/I2S1_MCK,USART1_CTS,TIM1_CH4,TIM1_BKIN2,I2C2_SCL,COMP1_OUT-PA11"/>
