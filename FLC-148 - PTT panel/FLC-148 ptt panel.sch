@@ -73,59 +73,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="431151015826 WS-TASV SMT Tact Pushbutton">
-<packages>
-<package name="SMD">
-<smd name="4" x="3" y="1.85" dx="1.1" dy="1.2" layer="1" rot="R90"/>
-<smd name="1" x="-3" y="-1.85" dx="1.1" dy="1.2" layer="1" rot="R90"/>
-<smd name="3" x="3" y="-1.85" dx="1.1" dy="1.2" layer="1" rot="R90"/>
-<smd name="2" x="-3" y="1.85" dx="1.1" dy="1.2" layer="1" rot="R90"/>
-<wire x1="-2.4" y1="2.4" x2="2.4" y2="2.4" width="0.1016" layer="21"/>
-<wire x1="-2.4" y1="-2.4" x2="2.4" y2="-2.4" width="0.1016" layer="21"/>
-<wire x1="-2.4" y1="1.2" x2="-2.4" y2="-1.2" width="0.1016" layer="21"/>
-<wire x1="2.4" y1="1.2" x2="2.4" y2="-1.2" width="0.1016" layer="21"/>
-<text x="0" y="3.6" size="1" layer="25" font="vector" align="center">&gt;NAME</text>
-<text x="0" y="-3.6" size="1" layer="27" font="vector" align="center">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="686605152001">
-<pin name="2" x="-10.16" y="5.08" visible="pad" length="middle"/>
-<pin name="1" x="-10.16" y="-5.08" visible="pad" length="middle"/>
-<pin name="3" x="10.16" y="-5.08" visible="pad" length="middle" rot="R180"/>
-<pin name="4" x="10.16" y="5.08" visible="pad" length="middle" rot="R180"/>
-<wire x1="-5.08" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<text x="0" y="7.62" size="1.778" layer="95" align="center">&gt;NAME</text>
-<text x="0" y="-7.62" size="1.778" layer="96" align="center">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="686605152001" prefix="SW" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="686605152001" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SMD">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="FFC solder pad pitch 1mm 5p">
 <packages>
 <package name="FFC_1MM_5P">
@@ -180,6 +127,59 @@
 </deviceset>
 </devicesets>
 </library>
+<library name="TL3315-345930 SMT Tact Pushbutton">
+<packages>
+<package name="SMT">
+<smd name="2" x="2.238" y="1.723" dx="1.1" dy="1.2" layer="1" rot="R90"/>
+<smd name="3" x="-2.238" y="-1.723" dx="1.1" dy="1.2" layer="1" rot="R90"/>
+<smd name="4" x="2.238" y="-1.723" dx="1.1" dy="1.2" layer="1" rot="R90"/>
+<smd name="1" x="-2.238" y="1.723" dx="1.1" dy="1.2" layer="1" rot="R90"/>
+<text x="0" y="3.5" size="1" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-3.5" size="1" layer="27" font="vector" align="center">&gt;VALUE</text>
+<wire x1="-1.4" y1="2.2" x2="1.4" y2="2.2" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-2.2" x2="1.4" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="1" x2="-2.2" y2="-1" width="0.127" layer="21"/>
+<wire x1="2.2" y1="1" x2="2.2" y2="-1" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TL3315NF250Q">
+<pin name="1" x="-10.16" y="5.08" visible="pad" length="middle"/>
+<pin name="3" x="-10.16" y="-5.08" visible="pad" length="middle"/>
+<pin name="4" x="10.16" y="-5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="2" x="10.16" y="5.08" visible="pad" length="middle" rot="R180"/>
+<wire x1="-5.08" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<text x="0" y="7.62" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-7.62" size="1.778" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TL3315NF250Q" prefix="SW" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="TL3315NF250Q" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -194,11 +194,11 @@
 </class>
 </classes>
 <parts>
-<part name="SQL" library="431151015826 WS-TASV SMT Tact Pushbutton" deviceset="686605152001" device="" value="431151015826"/>
-<part name="PTT_1" library="431151015826 WS-TASV SMT Tact Pushbutton" deviceset="686605152001" device="" value="431151015826"/>
-<part name="PTT_2" library="431151015826 WS-TASV SMT Tact Pushbutton" deviceset="686605152001" device="" value="431151015826"/>
-<part name="FN1" library="431151015826 WS-TASV SMT Tact Pushbutton" deviceset="686605152001" device="" value="431151015826"/>
-<part name="FN2" library="431151015826 WS-TASV SMT Tact Pushbutton" deviceset="686605152001" device="" value="431151015826"/>
+<part name="SQL" library="TL3315-345930 SMT Tact Pushbutton" deviceset="TL3315NF250Q" device="" value="TL3315NF250Q"/>
+<part name="PTT_1" library="TL3315-345930 SMT Tact Pushbutton" deviceset="TL3315NF250Q" device="" value="TL3315NF250Q"/>
+<part name="PTT_2" library="TL3315-345930 SMT Tact Pushbutton" deviceset="TL3315NF250Q" device="" value="TL3315NF250Q"/>
+<part name="FN1" library="TL3315-345930 SMT Tact Pushbutton" deviceset="TL3315NF250Q" device="" value="TL3315NF250Q"/>
+<part name="FN2" library="TL3315-345930 SMT Tact Pushbutton" deviceset="TL3315NF250Q" device="" value="TL3315NF250Q"/>
 <part name="MOTHERBOARD" library="FFC solder pad pitch 1mm 5p" deviceset="FFC_1MM_5P" device="" value="FFC 5p, 1mm pitch, solderpad"/>
 </parts>
 <sheets>
@@ -236,47 +236,47 @@
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="SQL" gate="G$1" pin="3"/>
+<pinref part="SQL" gate="G$1" pin="4"/>
 <wire x1="33.02" y1="10.16" x2="40.64" y2="10.16" width="0.1524" layer="91"/>
 <label x="40.64" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PTT_2" gate="G$1" pin="3"/>
+<pinref part="PTT_2" gate="G$1" pin="4"/>
 <wire x1="33.02" y1="30.48" x2="40.64" y2="30.48" width="0.1524" layer="91"/>
 <label x="40.64" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="FN1" gate="G$1" pin="3"/>
+<pinref part="FN1" gate="G$1" pin="4"/>
 <wire x1="33.02" y1="50.8" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
 <label x="40.64" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="FN2" gate="G$1" pin="3"/>
+<pinref part="FN2" gate="G$1" pin="4"/>
 <wire x1="33.02" y1="71.12" x2="40.64" y2="71.12" width="0.1524" layer="91"/>
 <label x="40.64" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SQL" gate="G$1" pin="1"/>
+<pinref part="SQL" gate="G$1" pin="3"/>
 <wire x1="12.7" y1="10.16" x2="10.16" y2="10.16" width="0.1524" layer="91"/>
 <label x="10.16" y="10.16" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="PTT_1" gate="G$1" pin="1"/>
+<pinref part="PTT_1" gate="G$1" pin="3"/>
 <wire x1="-12.7" y1="30.48" x2="-15.24" y2="30.48" width="0.1524" layer="91"/>
 <label x="-15.24" y="30.48" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="PTT_1" gate="G$1" pin="3"/>
-<pinref part="PTT_2" gate="G$1" pin="1"/>
+<pinref part="PTT_1" gate="G$1" pin="4"/>
+<pinref part="PTT_2" gate="G$1" pin="3"/>
 <wire x1="12.7" y1="30.48" x2="7.62" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="FN1" gate="G$1" pin="1"/>
+<pinref part="FN1" gate="G$1" pin="3"/>
 <wire x1="12.7" y1="50.8" x2="10.16" y2="50.8" width="0.1524" layer="91"/>
 <label x="10.16" y="50.8" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="FN2" gate="G$1" pin="1"/>
+<pinref part="FN2" gate="G$1" pin="3"/>
 <wire x1="12.7" y1="71.12" x2="10.16" y2="71.12" width="0.1524" layer="91"/>
 <label x="10.16" y="71.12" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -288,18 +288,18 @@
 </net>
 <net name="PTT" class="1">
 <segment>
-<pinref part="PTT_2" gate="G$1" pin="4"/>
+<pinref part="PTT_2" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="40.64" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
 <label x="40.64" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PTT_1" gate="G$1" pin="2"/>
+<pinref part="PTT_1" gate="G$1" pin="1"/>
 <wire x1="-12.7" y1="40.64" x2="-15.24" y2="40.64" width="0.1524" layer="91"/>
 <label x="-15.24" y="40.64" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="PTT_1" gate="G$1" pin="4"/>
-<pinref part="PTT_2" gate="G$1" pin="2"/>
+<pinref part="PTT_1" gate="G$1" pin="2"/>
+<pinref part="PTT_2" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="40.64" x2="7.62" y2="40.64" width="0.1524" layer="91"/>
 <label x="10.16" y="40.64" size="1.778" layer="95" rot="R90"/>
 </segment>
@@ -311,12 +311,12 @@
 </net>
 <net name="FN1" class="0">
 <segment>
-<pinref part="FN1" gate="G$1" pin="4"/>
+<pinref part="FN1" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="60.96" x2="40.64" y2="60.96" width="0.1524" layer="91"/>
 <label x="40.64" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="FN1" gate="G$1" pin="2"/>
+<pinref part="FN1" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="60.96" x2="10.16" y2="60.96" width="0.1524" layer="91"/>
 <label x="10.16" y="60.96" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -328,12 +328,12 @@
 </net>
 <net name="SQL" class="0">
 <segment>
-<pinref part="SQL" gate="G$1" pin="4"/>
+<pinref part="SQL" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="20.32" x2="40.64" y2="20.32" width="0.1524" layer="91"/>
 <label x="40.64" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SQL" gate="G$1" pin="2"/>
+<pinref part="SQL" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="20.32" x2="10.16" y2="20.32" width="0.1524" layer="91"/>
 <label x="10.16" y="20.32" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -345,12 +345,12 @@
 </net>
 <net name="FN2" class="0">
 <segment>
-<pinref part="FN2" gate="G$1" pin="4"/>
+<pinref part="FN2" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="81.28" x2="40.64" y2="81.28" width="0.1524" layer="91"/>
 <label x="40.64" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="FN2" gate="G$1" pin="2"/>
+<pinref part="FN2" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="81.28" x2="10.16" y2="81.28" width="0.1524" layer="91"/>
 <label x="10.16" y="81.28" size="1.778" layer="95" rot="R180"/>
 </segment>
