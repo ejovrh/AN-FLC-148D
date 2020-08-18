@@ -20492,7 +20492,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/FTSH-107-01-L
 <part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-EU" device="L2012C" package3d_urn="urn:adsk.eagle:package:23475/2" value="BLM21SP601SH1D"/>
 <part name="IC6" library="ECS-480-10-33B-CKM-TR 48MHz Crystal" deviceset="ECS-480-10-33B-CKM-TR" device="" value="ECS-480-10-33B-CKM-TR"/>
 <part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1μF"/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="300k"/>
 </parts>
@@ -20852,10 +20851,6 @@ Presistor=0.2A*1.6V=0.32W</text>
 <attribute name="NAME" x="784.86" y="-43.18" size="1.778" layer="95"/>
 <attribute name="VALUE" x="784.86" y="-45.72" size="1.778" layer="96"/>
 </instance>
-<instance part="R7" gate="G$1" x="805.18" y="-30.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="803.6814" y="-34.29" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="808.482" y="-34.29" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="R8" gate="G$1" x="167.64" y="-43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="166.1414" y="-46.99" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="170.942" y="-46.99" size="1.778" layer="96" rot="R90"/>
@@ -21102,11 +21097,6 @@ Presistor=0.2A*1.6V=0.32W</text>
 <pinref part="C20" gate="G$1" pin="2"/>
 <wire x1="782.32" y1="-48.26" x2="782.32" y2="-50.8" width="0.1524" layer="91"/>
 <label x="782.32" y="-50.8" size="1.778" layer="95" rot="R270"/>
-</segment>
-<segment>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="805.18" y1="-35.56" x2="805.18" y2="-38.1" width="0.1524" layer="91"/>
-<label x="805.18" y="-38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
@@ -21946,7 +21936,6 @@ Presistor=0.2A*1.6V=0.32W</text>
 <segment>
 <pinref part="J1" gate="G$1" pin="T_JCLK/T_SWCLK_P6"/>
 <label x="805.18" y="-25.4" size="1.778" layer="95"/>
-<pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="779.78" y1="-25.4" x2="805.18" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
