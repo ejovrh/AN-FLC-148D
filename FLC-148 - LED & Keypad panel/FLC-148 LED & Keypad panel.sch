@@ -20553,17 +20553,58 @@ Presistor=20mA*2V=40mW</text>
 <wire x1="459.74" y1="129.54" x2="833.12" y2="129.54" width="0.1524" layer="90"/>
 <wire x1="833.12" y1="129.54" x2="833.12" y2="-218.44" width="0.1524" layer="90"/>
 <wire x1="833.12" y1="-218.44" x2="459.74" y2="-218.44" width="0.1524" layer="90"/>
-<text x="693.42" y="5.08" size="1.778" layer="97">SPI2 - master for LCD</text>
+<text x="706.12" y="5.08" size="1.778" layer="97">SPI2 - master for LCD</text>
 <text x="304.8" y="-2.54" size="1.778" layer="97" rot="R180">Itotal = 7*70mA = 490mA, Uf=1.4V
 Presistor = 490mA*1.4V=686mW</text>
 <text x="307.34" y="-124.46" size="1.778" layer="97" rot="R180">Itotal=4*50mA = 200mA, U =1.6V
 Presistor=0.2A*1.6V=0.32W</text>
-<text x="662.94" y="-129.54" size="1.778" layer="98">wakeup</text>
-<text x="662.94" y="-104.14" size="1.778" layer="98">wakeup</text>
-<text x="662.94" y="-91.44" size="1.778" layer="98">wakeup</text>
-<text x="662.94" y="7.62" size="1.778" layer="98">wakeup</text>
-<text x="685.8" y="-127" size="1.778" layer="98">TODO: tie boot0 to gnd</text>
+<text x="703.58" y="-129.54" size="1.778" layer="98">WKUP2</text>
+<text x="711.2" y="-104.14" size="1.778" layer="98">WKUP1</text>
+<text x="706.12" y="-91.44" size="1.778" layer="98">WKUP4</text>
+<text x="690.88" y="-22.86" size="1.778" layer="98">TODO: tie boot0 to gnd</text>
 <text x="132.08" y="-15.24" size="1.778" layer="90">BOOT0 pin</text>
+<text x="716.28" y="-45.72" size="1.778" layer="91">PWM (output)</text>
+<text x="701.04" y="-30.48" size="1.778" layer="91">GPIO (input)</text>
+<text x="713.74" y="-73.66" size="1.778" layer="91">PWM</text>
+<text x="693.42" y="-33.02" size="1.778" layer="91">GPIO (input)</text>
+<text x="688.34" y="-35.56" size="1.778" layer="91">GPIO (input)</text>
+<text x="688.34" y="-38.1" size="1.778" layer="91">GPIO (input)</text>
+<text x="688.34" y="-40.64" size="1.778" layer="91">GPIO (input)</text>
+<text x="688.34" y="-43.18" size="1.778" layer="91">GPIO (input)</text>
+<text x="690.88" y="-101.6" size="1.778" layer="91">GPIO (input)</text>
+<text x="688.34" y="-129.54" size="1.778" layer="91">GPIO (input)</text>
+<text x="688.34" y="-124.46" size="1.778" layer="91">GPIO (input)</text>
+<text x="688.34" y="-127" size="1.778" layer="91">GPIO (input)</text>
+<text x="690.88" y="17.78" size="1.778" layer="91">GPIO (input)</text>
+<text x="688.34" y="15.24" size="1.778" layer="91">GPIO (input)</text>
+<text x="688.34" y="7.62" size="1.778" layer="91">GPIO (output)</text>
+<text x="688.34" y="2.54" size="1.778" layer="91">GPIO (output)</text>
+<text x="688.34" y="0" size="1.778" layer="91">GPIO (output)</text>
+<text x="688.34" y="-2.54" size="1.778" layer="91">GPIO (output)</text>
+<text x="688.34" y="5.08" size="1.778" layer="91">GPIO (output)</text>
+<text x="690.88" y="-10.16" size="1.778" layer="91">GPIO (output)</text>
+<text x="690.88" y="-27.94" size="1.778" layer="91">GPIO (output)</text>
+<text x="693.42" y="10.16" size="1.778" layer="91">GPIO (input)</text>
+<text x="711.2" y="-48.26" size="1.778" layer="91">PWM (output)</text>
+<text x="688.34" y="-91.44" size="1.778" layer="91">GPIO (input)</text>
+<text x="347.98" y="-167.64" size="1.778" layer="94">TODO: quad FET</text>
+<text x="685.8" y="-104.14" size="1.9304" layer="94">TODO: logic gates</text>
+<text x="855.98" y="-25.4" size="1.778" layer="94" align="top-left">TODO
+
+- logic gates: add logic OR gates to pushbutton switches &amp; tie to wakeup pin so that microcontroller can be waken up on key press
+
+- quad FET: replace 2 dual FETs with one quad fet component
+
+- output debouncing: add debouncing circuitry to rotary encoder A and B output channels
+
+- pulldown: add 10k pulldown to FET gate pins
+
+- </text>
+<text x="55.88" y="33.02" size="1.778" layer="94">TODO: output debouncing</text>
+<text x="396.24" y="-175.26" size="1.778" layer="94">TODO: pulldown</text>
+<text x="398.78" y="-180.34" size="1.778" layer="94">TODO: pulldown</text>
+<text x="396.24" y="-200.66" size="1.778" layer="94">TODO: pulldown</text>
+<text x="706.12" y="7.62" size="1.778" layer="98">WKUP6</text>
 </plain>
 <instances>
 <instance part="LED3" gate="G$1" x="314.96" y="66.04" smashed="yes">
