@@ -20599,12 +20599,13 @@ Presistor=0.2A*1.6V=0.32W</text>
 
 - pulldown: add 10k pulldown to FET gate pins
 
-- </text>
+- conector rework: pick different connectors &amp; orient them better</text>
 <text x="55.88" y="33.02" size="1.778" layer="94">TODO: output debouncing</text>
 <text x="396.24" y="-175.26" size="1.778" layer="94">TODO: pulldown</text>
 <text x="398.78" y="-180.34" size="1.778" layer="94">TODO: pulldown</text>
 <text x="396.24" y="-200.66" size="1.778" layer="94">TODO: pulldown</text>
 <text x="706.12" y="7.62" size="1.778" layer="98">WKUP6</text>
+<text x="5.08" y="48.26" size="1.778" layer="94">TODO: connector rework</text>
 </plain>
 <instances>
 <instance part="LED3" gate="G$1" x="314.96" y="66.04" smashed="yes">
