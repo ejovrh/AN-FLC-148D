@@ -21867,30 +21867,6 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="35.56" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="IN1"/>
-<wire x1="104.14" y1="111.76" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
-<label x="99.06" y="111.76" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="ROTARY_A_OUT" class="2">
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUT7"/>
-<wire x1="134.62" y1="53.34" x2="142.24" y2="53.34" width="0.1524" layer="91"/>
-<label x="142.24" y="53.34" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="SPI2_MOSI,USART1_RX,TIM1_CH3,TIM17_BKIN,I2C1_SDA,EVENTOUT,UCPD1_DBCC2-PA10"/>
-<wire x1="655.32" y1="-33.02" x2="675.64" y2="-33.02" width="0.1524" layer="91"/>
-<label x="675.64" y="-33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ROTARY_B_OUT" class="2">
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUT1"/>
-<wire x1="134.62" y1="111.76" x2="142.24" y2="111.76" width="0.1524" layer="91"/>
-<label x="142.24" y="111.76" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC5" gate="G$1" pin="USART1_TX,TIM1_CH3,TIM16_CH1N,SPI2_MISO,LPTIM1_ETR,I2C1_SCL,EVENTOUT,COMP2_INP-PB6"/>
 <wire x1="655.32" y1="10.16" x2="675.64" y2="10.16" width="0.1524" layer="91"/>
 <label x="675.64" y="10.16" size="1.778" layer="95"/>
@@ -21903,9 +21879,9 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="35.56" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="IN7"/>
-<wire x1="104.14" y1="53.34" x2="99.06" y2="53.34" width="0.1524" layer="91"/>
-<label x="99.06" y="53.34" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC5" gate="G$1" pin="SPI2_MOSI,USART1_RX,TIM1_CH3,TIM17_BKIN,I2C1_SDA,EVENTOUT,UCPD1_DBCC2-PA10"/>
+<wire x1="655.32" y1="-33.02" x2="675.64" y2="-33.02" width="0.1524" layer="91"/>
+<label x="675.64" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ROTARY_PUSH_OUT" class="2">
