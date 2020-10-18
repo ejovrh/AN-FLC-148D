@@ -20498,7 +20498,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/FTSH-107-01-L
 <sheets>
 <sheet>
 <plain>
-<text x="246.38" y="88.9" size="1.778" layer="97">Uf=2V, If=20mA
+<text x="259.08" y="88.9" size="1.778" layer="97">Uf=2V, If=20mA
 3.3V-2V=1.3V
 1.3V/20mA = 65Ohm
 Presistor=20mA*2V=40mW</text>
@@ -20553,45 +20553,45 @@ Presistor=20mA*2V=40mW</text>
 <wire x1="459.74" y1="129.54" x2="833.12" y2="129.54" width="0.1524" layer="90"/>
 <wire x1="833.12" y1="129.54" x2="833.12" y2="-218.44" width="0.1524" layer="90"/>
 <wire x1="833.12" y1="-218.44" x2="459.74" y2="-218.44" width="0.1524" layer="90"/>
-<text x="706.12" y="5.08" size="1.778" layer="97">SPI2 - master for LCD</text>
+<text x="716.28" y="5.08" size="1.778" layer="97">SPI2 - master for LCD</text>
 <text x="304.8" y="-2.54" size="1.778" layer="97" rot="R180">Itotal = 7*70mA = 490mA, Uf=1.4V
 Presistor = 490mA*1.4V=686mW</text>
 <text x="307.34" y="-124.46" size="1.778" layer="97" rot="R180">Itotal=4*50mA = 200mA, U =1.6V
 Presistor=0.2A*1.6V=0.32W</text>
-<text x="703.58" y="-129.54" size="1.778" layer="98">WKUP2</text>
-<text x="711.2" y="-104.14" size="1.778" layer="98">WKUP1</text>
-<text x="706.12" y="-91.44" size="1.778" layer="98">WKUP4</text>
-<text x="690.88" y="-22.86" size="1.778" layer="98">TODO: tie boot0 to gnd</text>
-<text x="132.08" y="-15.24" size="1.778" layer="90">BOOT0 pin</text>
-<text x="716.28" y="-45.72" size="1.778" layer="91">PWM (output)</text>
+<text x="718.82" y="-129.54" size="1.778" layer="98">WKUP2</text>
+<text x="723.9" y="-104.14" size="1.778" layer="98">WKUP1</text>
+<text x="721.36" y="-91.44" size="1.778" layer="98">WKUP4</text>
+<text x="701.04" y="-22.86" size="1.778" layer="98">TODO: tie boot0 to gnd</text>
+<text x="144.78" y="-15.24" size="1.778" layer="90">BOOT0 pin</text>
+<text x="721.36" y="-45.72" size="1.778" layer="91">PWM (output)</text>
 <text x="701.04" y="-30.48" size="1.778" layer="91">GPIO (input)</text>
 <text x="713.74" y="-73.66" size="1.778" layer="91">PWM</text>
 <text x="693.42" y="-33.02" size="1.778" layer="91">GPIO (input)</text>
-<text x="688.34" y="-35.56" size="1.778" layer="91">GPIO (input)</text>
-<text x="688.34" y="-38.1" size="1.778" layer="91">GPIO (input)</text>
-<text x="688.34" y="-40.64" size="1.778" layer="91">GPIO (input)</text>
-<text x="688.34" y="-43.18" size="1.778" layer="91">GPIO (input)</text>
-<text x="690.88" y="-101.6" size="1.778" layer="91">GPIO (input)</text>
-<text x="688.34" y="-129.54" size="1.778" layer="91">GPIO (input)</text>
-<text x="688.34" y="-124.46" size="1.778" layer="91">GPIO (input)</text>
-<text x="688.34" y="-127" size="1.778" layer="91">GPIO (input)</text>
-<text x="690.88" y="17.78" size="1.778" layer="91">GPIO (input)</text>
-<text x="688.34" y="15.24" size="1.778" layer="91">GPIO (input)</text>
-<text x="688.34" y="7.62" size="1.778" layer="91">GPIO (output)</text>
-<text x="688.34" y="2.54" size="1.778" layer="91">GPIO (output)</text>
-<text x="688.34" y="0" size="1.778" layer="91">GPIO (output)</text>
-<text x="688.34" y="-2.54" size="1.778" layer="91">GPIO (output)</text>
-<text x="688.34" y="5.08" size="1.778" layer="91">GPIO (output)</text>
-<text x="690.88" y="-10.16" size="1.778" layer="91">GPIO (output)</text>
-<text x="690.88" y="-27.94" size="1.778" layer="91">GPIO (output)</text>
+<text x="708.66" y="-35.56" size="1.778" layer="91">GPIO (input)</text>
+<text x="708.66" y="-38.1" size="1.778" layer="91">GPIO (input)</text>
+<text x="708.66" y="-40.64" size="1.778" layer="91">GPIO (input)</text>
+<text x="708.66" y="-43.18" size="1.778" layer="91">GPIO (input)</text>
+<text x="708.66" y="-101.6" size="1.778" layer="91">GPIO (input)</text>
+<text x="703.58" y="-129.54" size="1.778" layer="91">GPIO (input)</text>
+<text x="703.58" y="-124.46" size="1.778" layer="91">GPIO (input)</text>
+<text x="703.58" y="-127" size="1.778" layer="91">GPIO (input)</text>
+<text x="708.66" y="17.78" size="1.778" layer="91">GPIO (input)</text>
+<text x="706.12" y="15.24" size="1.778" layer="91">GPIO (input)</text>
+<text x="698.5" y="7.62" size="1.778" layer="91">GPIO (output)</text>
+<text x="698.5" y="2.54" size="1.778" layer="91">GPIO (output)</text>
+<text x="698.5" y="0" size="1.778" layer="91">GPIO (output)</text>
+<text x="698.5" y="-2.54" size="1.778" layer="91">GPIO (output)</text>
+<text x="698.5" y="5.08" size="1.778" layer="91">GPIO (output)</text>
+<text x="693.42" y="-10.16" size="1.778" layer="91">GPIO (output)</text>
+<text x="693.42" y="-27.94" size="1.778" layer="91">GPIO (output)</text>
 <text x="693.42" y="10.16" size="1.778" layer="91">GPIO (input)</text>
-<text x="711.2" y="-48.26" size="1.778" layer="91">PWM (output)</text>
-<text x="688.34" y="-91.44" size="1.778" layer="91">GPIO (input)</text>
+<text x="716.28" y="-48.26" size="1.778" layer="91">PWM (output)</text>
+<text x="706.12" y="-91.44" size="1.778" layer="91">GPIO (input)</text>
 <text x="347.98" y="-167.64" size="1.778" layer="94">TODO: quad FET</text>
-<text x="685.8" y="-104.14" size="1.9304" layer="94">TODO: logic gates</text>
+<text x="701.04" y="-104.14" size="1.9304" layer="94">TODO: logic gates</text>
 <text x="855.98" y="-25.4" size="1.778" layer="94" align="top-left">TODO
 
-- logic gates: add logic OR gates to pushbutton switches &amp; tie to wakeup pin so that microcontroller can be waken up on key press
+- MCU wakeup &amp; logic gates: add logic OR gates to pushbutton switches &amp; tie to wakeup pin so that microcontroller can be waken up on key press
 
 - quad FET: replace 2 dual FETs with one quad fet component
 
@@ -20604,8 +20604,9 @@ Presistor=0.2A*1.6V=0.32W</text>
 <text x="396.24" y="-175.26" size="1.778" layer="94">TODO: pulldown</text>
 <text x="398.78" y="-180.34" size="1.778" layer="94">TODO: pulldown</text>
 <text x="396.24" y="-200.66" size="1.778" layer="94">TODO: pulldown</text>
-<text x="706.12" y="7.62" size="1.778" layer="98">WKUP6</text>
+<text x="716.28" y="7.62" size="1.778" layer="98">WKUP6</text>
 <text x="5.08" y="48.26" size="1.778" layer="94">TODO: connector rework</text>
+<text x="134.62" y="40.64" size="1.778" layer="94">TODO: MCU wakeup</text>
 </plain>
 <instances>
 <instance part="LED3" gate="G$1" x="314.96" y="66.04" smashed="yes">
@@ -20688,9 +20689,9 @@ Presistor=0.2A*1.6V=0.32W</text>
 <attribute name="NAME" x="17.78" y="76.2" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="17.78" y="53.34" size="1.27" layer="96" align="center"/>
 </instance>
-<instance part="R4" gate="G$1" x="254" y="73.66" smashed="yes">
-<attribute name="NAME" x="254" y="85.09" size="1" layer="95" font="vector" align="center"/>
-<attribute name="VALUE" x="254" y="59.69" size="1" layer="96" font="vector" align="center"/>
+<instance part="R4" gate="G$1" x="266.7" y="73.66" smashed="yes">
+<attribute name="NAME" x="266.7" y="85.09" size="1" layer="95" font="vector" align="center"/>
+<attribute name="VALUE" x="266.7" y="59.69" size="1" layer="96" font="vector" align="center"/>
 </instance>
 <instance part="IMIC" gate="G$1" x="96.52" y="-86.36" smashed="yes">
 <attribute name="NAME" x="91.44" y="-86.36" size="1" layer="95" font="vector" align="center"/>
@@ -21270,7 +21271,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="48.26" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ALT_IN" class="2">
+<net name="KEYPAD_ALT_IN" class="2">
 <segment>
 <wire x1="33.02" y1="86.36" x2="35.56" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="ALT" gate="G$1" pin="2"/>
@@ -21282,7 +21283,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="99.06" y="104.14" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="DOWN_IN" class="2">
+<net name="KEYPAD_DOWN_IN" class="2">
 <segment>
 <wire x1="33.02" y1="91.44" x2="35.56" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="DOWN" gate="G$1" pin="2"/>
@@ -21294,7 +21295,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="99.06" y="96.52" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="UP_IN" class="2">
+<net name="KEYPAD_UP_IN" class="2">
 <segment>
 <wire x1="33.02" y1="96.52" x2="35.56" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="UP" gate="G$1" pin="2"/>
@@ -21306,7 +21307,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="99.06" y="99.06" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="MODE_IN" class="2">
+<net name="KEYPAD_MODE_IN" class="2">
 <segment>
 <wire x1="33.02" y1="101.6" x2="35.56" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="MODE" gate="G$1" pin="2"/>
@@ -21318,7 +21319,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="99.06" y="106.68" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="GR_IN" class="2">
+<net name="KEYPAD_GR_IN" class="2">
 <segment>
 <wire x1="33.02" y1="106.68" x2="35.56" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="GR" gate="G$1" pin="2"/>
@@ -21330,7 +21331,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="99.06" y="101.6" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="ESC_IN" class="2">
+<net name="KEYPAD_ESC_IN" class="2">
 <segment>
 <wire x1="33.02" y1="111.76" x2="35.56" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="ESC" gate="G$1" pin="2"/>
@@ -21342,7 +21343,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="99.06" y="109.22" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="ENT_IN" class="2">
+<net name="KEYPAD_ENT_IN" class="2">
 <segment>
 <wire x1="33.02" y1="116.84" x2="35.56" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="ENT" gate="G$1" pin="2"/>
@@ -21354,7 +21355,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="99.06" y="93.98" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="SQL_IN" class="2">
+<net name="SIDEPANEL_SQL_IN" class="2">
 <segment>
 <wire x1="35.56" y1="71.12" x2="27.94" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="PTT" gate="G$1" pin="P$5"/>
@@ -21366,7 +21367,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="99.06" y="60.96" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="PTT_IN" class="2">
+<net name="SIDEPANEL_PTT_IN" class="2">
 <segment>
 <wire x1="35.56" y1="68.58" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="PTT" gate="G$1" pin="P$4"/>
@@ -21378,7 +21379,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="99.06" y="55.88" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="FN1_IN" class="2">
+<net name="SIDEPANEL_FN1_IN" class="2">
 <segment>
 <wire x1="35.56" y1="66.04" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="PTT" gate="G$1" pin="P$3"/>
@@ -21390,7 +21391,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="99.06" y="58.42" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="FN2_IN" class="2">
+<net name="SIDEPANEL_FN2_IN" class="2">
 <segment>
 <wire x1="35.56" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="PTT" gate="G$1" pin="P$2"/>
@@ -21482,11 +21483,11 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="134.62" y="-81.28" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="PIN_CP2" class="2">
+<net name="KEYPAD_CP2_PIN" class="2">
 <segment>
 <pinref part="R4" gate="G$1" pin="P$6"/>
-<wire x1="246.38" y1="68.58" x2="238.76" y2="68.58" width="0.1524" layer="91"/>
-<label x="238.76" y="68.58" size="1.778" layer="95" rot="R180"/>
+<wire x1="259.08" y1="68.58" x2="251.46" y2="68.58" width="0.1524" layer="91"/>
+<label x="251.46" y="68.58" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="USART3_RTS_DE_CK,TIM3_ETR,TIM1_CH1N,UCPD2_CC2-PD2"/>
@@ -21494,11 +21495,11 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PIN_CP4" class="2">
+<net name="KEYPAD_CP4_PIN" class="2">
 <segment>
 <pinref part="R4" gate="G$1" pin="P$5"/>
-<wire x1="246.38" y1="71.12" x2="238.76" y2="71.12" width="0.1524" layer="91"/>
-<label x="238.76" y="71.12" size="1.778" layer="95" rot="R180"/>
+<wire x1="259.08" y1="71.12" x2="251.46" y2="71.12" width="0.1524" layer="91"/>
+<label x="251.46" y="71.12" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="USART2_CTS,SPI2_MISO,TIM1_CH2N,UCPD2_DBCC2-PD3"/>
@@ -21506,11 +21507,11 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PIN_CP1" class="2">
+<net name="KEYPAD_CP1_PIN" class="2">
 <segment>
 <pinref part="R4" gate="G$1" pin="P$4"/>
-<wire x1="246.38" y1="73.66" x2="238.76" y2="73.66" width="0.1524" layer="91"/>
-<label x="238.76" y="73.66" size="1.778" layer="95" rot="R180"/>
+<wire x1="259.08" y1="73.66" x2="251.46" y2="73.66" width="0.1524" layer="91"/>
+<label x="251.46" y="73.66" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="SPI1_SCK/I2S1_CK,TIM1_CH2,TIM2_CH2,USART1_RTS_DE_CK,EVENTOUT,COMP2_INM-PB3"/>
@@ -21518,11 +21519,11 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PIN_CP3" class="2">
+<net name="KEYPAD_CP3_PIN" class="2">
 <segment>
 <pinref part="R4" gate="G$1" pin="P$3"/>
-<wire x1="246.38" y1="76.2" x2="238.76" y2="76.2" width="0.1524" layer="91"/>
-<label x="238.76" y="76.2" size="1.778" layer="95" rot="R180"/>
+<wire x1="259.08" y1="76.2" x2="251.46" y2="76.2" width="0.1524" layer="91"/>
+<label x="251.46" y="76.2" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="SPI1_MISO/I2S1_MCK,TIM3_CH1,USART1_CTS,TIM17_BKIN,EVENTOUT,COMP2_INP-PB4"/>
@@ -21530,11 +21531,11 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PIN_CP5" class="2">
+<net name="KEYPAD_CP5_PIN" class="2">
 <segment>
 <pinref part="R4" gate="G$1" pin="P$2"/>
-<wire x1="246.38" y1="78.74" x2="238.76" y2="78.74" width="0.1524" layer="91"/>
-<label x="238.76" y="78.74" size="1.778" layer="95" rot="R180"/>
+<wire x1="259.08" y1="78.74" x2="251.46" y2="78.74" width="0.1524" layer="91"/>
+<label x="251.46" y="78.74" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="SPI1_MOSI/I2S1_SD,TIM3_CH2,TIM16_BKIN,LPTIM1_IN1,I2C1_SMBA,COMP2_OUT,WKUP6-PB5"/>
@@ -21542,7 +21543,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SWDIO" class="2">
+<net name="MCU_SWD_IO_PIN" class="2">
 <segment>
 <pinref part="J1" gate="G$1" pin="TJTMS/T_SWDIO_P4"/>
 <wire x1="779.78" y1="-20.32" x2="787.4" y2="-20.32" width="0.1524" layer="91"/>
@@ -21554,7 +21555,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="OLED_RST" class="2">
+<net name="LCD_RST_PIN" class="2">
 <segment>
 <pinref part="LCD" gate="G$1" pin="!RET!_29"/>
 <wire x1="33.02" y1="-5.08" x2="48.26" y2="-5.08" width="0.1524" layer="91"/>
@@ -21571,7 +21572,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="-10.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SQL_OUT" class="2">
+<net name="SIDEPANEL_SQL_OUT_PIN" class="2">
 <segment>
 <pinref part="IC2" gate="G$1" pin="OUT4"/>
 <wire x1="134.62" y1="60.96" x2="142.24" y2="60.96" width="0.1524" layer="91"/>
@@ -21583,7 +21584,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="FN2_OUT" class="2">
+<net name="SIDEPANEL_FN2_OUT_PIN" class="2">
 <segment>
 <pinref part="IC2" gate="G$1" pin="OUT3"/>
 <wire x1="134.62" y1="63.5" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
@@ -21595,7 +21596,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PTT_OUT" class="2">
+<net name="SIDEPANEL_PTT_OUT_PIN" class="2">
 <segment>
 <pinref part="IC2" gate="G$1" pin="OUT6"/>
 <wire x1="134.62" y1="55.88" x2="142.24" y2="55.88" width="0.1524" layer="91"/>
@@ -21607,7 +21608,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ESC_OUT" class="2">
+<net name="KEYPAD_ESC_OUT_PIN" class="2">
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT2"/>
 <wire x1="134.62" y1="109.22" x2="142.24" y2="109.22" width="0.1524" layer="91"/>
@@ -21619,7 +21620,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GR_OUT" class="2">
+<net name="KEYPAD_GR_OUT_PIN" class="2">
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT5"/>
 <wire x1="134.62" y1="101.6" x2="142.24" y2="101.6" width="0.1524" layer="91"/>
@@ -21631,7 +21632,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="-127" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="UP_OUT" class="2">
+<net name="KEYPAD_UP_OUT_PIN" class="2">
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT6"/>
 <wire x1="134.62" y1="99.06" x2="142.24" y2="99.06" width="0.1524" layer="91"/>
@@ -21643,7 +21644,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="-124.46" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DOWN_OUT" class="2">
+<net name="KEYPAD_DOWN_OUT_PIN" class="2">
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT7"/>
 <wire x1="134.62" y1="96.52" x2="142.24" y2="96.52" width="0.1524" layer="91"/>
@@ -21655,7 +21656,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ALT_OUT" class="2">
+<net name="KEYPAD_ALT_OUT_PIN" class="2">
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT4"/>
 <wire x1="134.62" y1="104.14" x2="142.24" y2="104.14" width="0.1524" layer="91"/>
@@ -21667,7 +21668,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="-129.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MODE_OUT" class="2">
+<net name="KEYPAD_MODE_OUT_PIN" class="2">
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT3"/>
 <wire x1="134.62" y1="106.68" x2="142.24" y2="106.68" width="0.1524" layer="91"/>
@@ -21679,7 +21680,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ENT_OUT" class="2">
+<net name="KEYPAD_ENT_OUT_PIN" class="2">
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT8"/>
 <wire x1="134.62" y1="93.98" x2="142.24" y2="93.98" width="0.1524" layer="91"/>
@@ -21691,7 +21692,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="-91.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="OLED_!D!/C" class="2">
+<net name="LCD_DC_PIN" class="2">
 <segment>
 <pinref part="LCD" gate="G$1" pin="A0(RS)_28"/>
 <wire x1="33.02" y1="-7.62" x2="48.26" y2="-7.62" width="0.1524" layer="91"/>
@@ -21715,7 +21716,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="FN1_OUT" class="2">
+<net name="SIDEPANEL_FN1_OUT_PIN" class="2">
 <segment>
 <pinref part="IC2" gate="G$1" pin="OUT5"/>
 <wire x1="134.62" y1="58.42" x2="142.24" y2="58.42" width="0.1524" layer="91"/>
@@ -21760,8 +21761,8 @@ Presistor=0.2A*1.6V=0.32W</text>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="P$13"/>
-<wire x1="261.62" y1="73.66" x2="269.24" y2="73.66" width="0.1524" layer="91"/>
-<label x="269.24" y="73.66" size="1.778" layer="95"/>
+<wire x1="274.32" y1="73.66" x2="281.94" y2="73.66" width="0.1524" layer="91"/>
+<label x="281.94" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CP2" class="2">
@@ -21787,8 +21788,8 @@ Presistor=0.2A*1.6V=0.32W</text>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="P$11"/>
-<wire x1="261.62" y1="68.58" x2="269.24" y2="68.58" width="0.1524" layer="91"/>
-<label x="269.24" y="68.58" size="1.778" layer="95"/>
+<wire x1="274.32" y1="68.58" x2="281.94" y2="68.58" width="0.1524" layer="91"/>
+<label x="281.94" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CP3" class="2">
@@ -21834,8 +21835,8 @@ Presistor=0.2A*1.6V=0.32W</text>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="P$14"/>
-<wire x1="261.62" y1="76.2" x2="269.24" y2="76.2" width="0.1524" layer="91"/>
-<label x="269.24" y="76.2" size="1.778" layer="95"/>
+<wire x1="274.32" y1="76.2" x2="281.94" y2="76.2" width="0.1524" layer="91"/>
+<label x="281.94" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CP4" class="2">
@@ -21861,8 +21862,8 @@ Presistor=0.2A*1.6V=0.32W</text>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="P$12"/>
-<wire x1="261.62" y1="71.12" x2="269.24" y2="71.12" width="0.1524" layer="91"/>
-<label x="269.24" y="71.12" size="1.778" layer="95"/>
+<wire x1="274.32" y1="71.12" x2="281.94" y2="71.12" width="0.1524" layer="91"/>
+<label x="281.94" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CP5" class="2">
@@ -21898,8 +21899,8 @@ Presistor=0.2A*1.6V=0.32W</text>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="P$15"/>
-<wire x1="261.62" y1="78.74" x2="269.24" y2="78.74" width="0.1524" layer="91"/>
-<label x="269.24" y="78.74" size="1.778" layer="95"/>
+<wire x1="274.32" y1="78.74" x2="281.94" y2="78.74" width="0.1524" layer="91"/>
+<label x="281.94" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ROTARY_B_IN" class="2">
@@ -21950,7 +21951,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="35.56" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SWDCLK" class="2">
+<net name="MCU_SWD_CLK_PIN" class="2">
 <segment>
 <pinref part="J1" gate="G$1" pin="T_JCLK/T_SWCLK_P6"/>
 <label x="805.18" y="-25.4" size="1.778" layer="95"/>
@@ -22154,7 +22155,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="119.38" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SPI_OLED_SCK" class="2">
+<net name="SPI_LCD_SCK_PIN" class="2">
 <segment>
 <pinref part="LCD" gate="G$1" pin="DB6_19"/>
 <wire x1="33.02" y1="-30.48" x2="48.26" y2="-30.48" width="0.1524" layer="91"/>
@@ -22166,7 +22167,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SPI_OLED_MOSI" class="2">
+<net name="SPI_LCD_MOSI_PIN" class="2">
 <segment>
 <pinref part="LCD" gate="G$1" pin="DB7_18"/>
 <wire x1="33.02" y1="-33.02" x2="48.26" y2="-33.02" width="0.1524" layer="91"/>
@@ -22178,7 +22179,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SPI_OLED_SS" class="2">
+<net name="SPI_LCD_SS_PIN" class="2">
 <segment>
 <pinref part="LCD" gate="G$1" pin="!CS1!_30"/>
 <wire x1="33.02" y1="-2.54" x2="48.26" y2="-2.54" width="0.1524" layer="91"/>
@@ -22195,7 +22196,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="187.96" y="50.8" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="OLED_BACKLIGHT_GREEN_GATE" class="2">
+<net name="LCD_BACKLIGHT_GREEN_GATE_PIN" class="2">
 <segment>
 <pinref part="IC5" gate="G$1" pin="SPI2_MOSI,TIM1_CH3N,TIM15_CH1N,TIM15_CH2,EVENTOUT,UCPD1_CC2,RTC_REFIN-PB15"/>
 <wire x1="655.32" y1="-45.72" x2="675.64" y2="-45.72" width="0.1524" layer="91"/>
@@ -22207,7 +22208,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="358.14" y="-180.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="OLED_BACKLIGHT_IR_GATE" class="2">
+<net name="LCD_BACKLIGHT_IR_GATE_PIN" class="2">
 <segment>
 <pinref part="IC5" gate="G$1" pin="SPI2_MISO,UCPD1_FRSTX,TIM1_CH2N,USART3_RTS_DE_CK,TIM15_CH1,I2C2_SDA,EVENTOUT-PB14"/>
 <wire x1="655.32" y1="-48.26" x2="675.64" y2="-48.26" width="0.1524" layer="91"/>
@@ -22344,7 +22345,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="OSC_IN" class="2">
+<net name="MCU_OSC_IN_PIN" class="2">
 <segment>
 <pinref part="C16" gate="G$1" pin="1"/>
 <label x="754.38" y="-71.12" size="1.778" layer="95" rot="R90"/>
@@ -22358,7 +22359,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="OSC_OUT" class="2">
+<net name="MCU_OSC_OUT_PIN" class="2">
 <segment>
 <pinref part="C18" gate="G$1" pin="1"/>
 <label x="769.62" y="-71.12" size="1.778" layer="95" rot="R90"/>
@@ -22405,7 +22406,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="-106.68" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="WAKEUP" class="2">
+<net name="MCU_WAKEUP_PIN" class="2">
 <segment>
 <pinref part="IC5" gate="G$1" pin="SPI2_SCK,USART2_CTS,TIM2_CH1_ETR,USART4_TX,LPTIM1_OUT,UCPD2_FRSTX,COMP1_OUT,COMP1_INM,ADC_IN0,TAMP_IN2,WKUP1-PA0"/>
 <wire x1="655.32" y1="-104.14" x2="675.64" y2="-104.14" width="0.1524" layer="91"/>
@@ -22439,10 +22440,6 @@ Presistor=0.2A*1.6V=0.32W</text>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="106,1,33.02,-7.62,OLED_!D!/C,,,,,"/>
-<approved hash="106,1,109.22,-43.18,SBATT,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
