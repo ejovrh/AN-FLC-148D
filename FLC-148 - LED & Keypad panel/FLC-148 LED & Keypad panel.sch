@@ -20597,9 +20597,11 @@ Presistor=0.2A*1.6V=0.32W</text>
 
 - output debouncing: add debouncing circuitry to rotary encoder A and B output channels
 
-- pulldown: add 10k pulldown to FET gate pins
+- pulldown: route 10k pulldown to FET gate pins
 
-- conector rework: pick different connectors &amp; orient them better</text>
+- conector rework: pick different connectors &amp; orient them better
+
+- EXTI conflict: PB6 and PC6 both have EXTI6</text>
 <text x="55.88" y="33.02" size="1.778" layer="94">TODO: output debouncing</text>
 <text x="396.24" y="-175.26" size="1.778" layer="94">TODO: pulldown</text>
 <text x="398.78" y="-180.34" size="1.778" layer="94">TODO: pulldown</text>
@@ -20607,6 +20609,13 @@ Presistor=0.2A*1.6V=0.32W</text>
 <text x="716.28" y="7.62" size="1.778" layer="98">WKUP6</text>
 <text x="5.08" y="48.26" size="1.778" layer="94">TODO: connector rework</text>
 <text x="134.62" y="40.64" size="1.778" layer="94">TODO: MCU wakeup</text>
+<text x="723.9" y="-38.1" size="1.9304" layer="94">TODO: EXTI conflict</text>
+<text x="708.66" y="10.16" size="1.9304" layer="94">TODO: EXTI conflict</text>
+<text x="683.26" y="-63.5" size="1.778" layer="98">EXTI12</text>
+<text x="683.26" y="-88.9" size="1.778" layer="98">EXTI3</text>
+<text x="683.26" y="-68.58" size="1.778" layer="98">TIM2_CH3</text>
+<text x="683.26" y="-66.04" size="1.778" layer="98">TIM2_CH4</text>
+<text x="193.04" y="43.18" size="1.778" layer="94">TODO: pulldown</text>
 </plain>
 <instances>
 <instance part="LED3" gate="G$1" x="314.96" y="66.04" smashed="yes">
@@ -21145,6 +21154,21 @@ Presistor=0.2A*1.6V=0.32W</text>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="-48.26" x2="167.64" y2="-50.8" width="0.1524" layer="91"/>
 <label x="167.64" y="-50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="P$4"/>
+<wire x1="193.04" y1="60.96" x2="187.96" y2="60.96" width="0.1524" layer="91"/>
+<label x="187.96" y="60.96" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="P$5"/>
+<wire x1="193.04" y1="58.42" x2="187.96" y2="58.42" width="0.1524" layer="91"/>
+<label x="187.96" y="58.42" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="P$6"/>
+<wire x1="193.04" y1="55.88" x2="187.96" y2="55.88" width="0.1524" layer="91"/>
+<label x="187.96" y="55.88" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="3V3" class="1">
@@ -22207,6 +22231,11 @@ Presistor=0.2A*1.6V=0.32W</text>
 <wire x1="350.52" y1="-180.34" x2="358.14" y2="-180.34" width="0.1524" layer="91"/>
 <label x="358.14" y="-180.34" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="P$12"/>
+<wire x1="208.28" y1="58.42" x2="213.36" y2="58.42" width="0.1524" layer="91"/>
+<label x="213.36" y="58.42" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="LCD_BACKLIGHT_IR_GATE_PIN" class="2">
 <segment>
@@ -22218,6 +22247,11 @@ Presistor=0.2A*1.6V=0.32W</text>
 <pinref part="IC3" gate="G$1" pin="G2_3"/>
 <wire x1="350.52" y1="-175.26" x2="358.14" y2="-175.26" width="0.1524" layer="91"/>
 <label x="358.14" y="-175.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="P$13"/>
+<wire x1="208.28" y1="60.96" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
+<label x="213.36" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IR_ANODE" class="2">
@@ -22318,6 +22352,11 @@ Presistor=0.2A*1.6V=0.32W</text>
 <pinref part="IC4" gate="G$1" pin="G1_1"/>
 <wire x1="350.52" y1="-200.66" x2="358.14" y2="-200.66" width="0.1524" layer="91"/>
 <label x="358.14" y="-200.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="P$11"/>
+<wire x1="208.28" y1="55.88" x2="213.36" y2="55.88" width="0.1524" layer="91"/>
+<label x="213.36" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="KEYPAD_IR_LED_A" class="2">
