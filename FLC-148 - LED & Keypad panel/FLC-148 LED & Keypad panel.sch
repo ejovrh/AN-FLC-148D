@@ -20616,6 +20616,8 @@ Presistor=0.2A*1.6V=0.32W</text>
 <text x="683.26" y="-68.58" size="1.778" layer="98">TIM2_CH3</text>
 <text x="683.26" y="-66.04" size="1.778" layer="98">TIM2_CH4</text>
 <text x="193.04" y="43.18" size="1.778" layer="94">TODO: pulldown</text>
+<text x="723.9" y="-43.18" size="1.9304" layer="94">TODO: EXTI conflict</text>
+<text x="723.9" y="-40.64" size="1.9304" layer="94">TODO: EXTI conflict</text>
 </plain>
 <instances>
 <instance part="LED3" gate="G$1" x="314.96" y="66.04" smashed="yes">
