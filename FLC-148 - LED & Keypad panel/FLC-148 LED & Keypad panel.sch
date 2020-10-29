@@ -20618,6 +20618,13 @@ Presistor=0.2A*1.6V=0.32W</text>
 <text x="193.04" y="43.18" size="1.778" layer="94">TODO: pulldown</text>
 <text x="723.9" y="-43.18" size="1.9304" layer="94">TODO: EXTI conflict</text>
 <text x="723.9" y="-40.64" size="1.9304" layer="94">TODO: EXTI conflict</text>
+<text x="312.42" y="109.22" size="1.778" layer="91">Mode</text>
+<text x="312.42" y="91.44" size="1.778" layer="91">Down</text>
+<text x="312.42" y="55.88" size="1.778" layer="91">Up</text>
+<text x="312.42" y="73.66" size="1.778" layer="91">Alt</text>
+<text x="370.84" y="101.6" size="1.778" layer="91">Group</text>
+<text x="370.84" y="63.5" size="1.778" layer="91">Escape</text>
+<text x="424.18" y="83.82" size="1.778" layer="91">Enter</text>
 </plain>
 <instances>
 <instance part="LED3" gate="G$1" x="314.96" y="66.04" smashed="yes">
@@ -21730,7 +21737,7 @@ Presistor=0.2A*1.6V=0.32W</text>
 <label x="675.64" y="-27.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MCU_KEYPAD_INTERRUPT" class="2">
+<net name="MCU_TO_KEYPAD_INT" class="2">
 <segment>
 <pinref part="MCU" gate="G$1" pin="PD9_6"/>
 <wire x1="109.22" y1="-30.48" x2="119.38" y2="-30.48" width="0.1524" layer="91"/>
